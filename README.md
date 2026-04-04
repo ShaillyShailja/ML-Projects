@@ -143,9 +143,9 @@ pip install -r requirements.txt
 
 ---
 
-## Author: Shailly Shailja
+## Author
 
-**Your Name**
-Analytics Professional | Machine Learning Enthusiast
+**Shailly Shailja**
+Audit & Assurance Analytics Specialist Senior | Deloitte USI, Hyderabad
 
 ---
