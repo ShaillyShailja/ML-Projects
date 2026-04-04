@@ -1,6 +1,6 @@
-# 📊 Bank Customer Churn Prediction
+# Bank Customer Churn Prediction
 
-## 📌 Overview
+## Overview
 
 This project focuses on predicting **customer churn** for a bank using machine learning techniques.
 Customer churn refers to customers leaving the bank, which is a critical business problem as retaining customers is more cost-effective than acquiring new ones.
@@ -9,7 +9,7 @@ The objective is to build and evaluate classification models that can accurately
 
 ---
 
-## 🎯 Problem Statement
+## Problem Statement
 
 Given customer-related features such as demographics, account details, and transaction behavior, the goal is to:
 
@@ -18,18 +18,18 @@ Given customer-related features such as demographics, account details, and trans
 
 ---
 
-## 📂 Dataset Description
+## Dataset Description
 
 The dataset contains customer-level information including:
 
-* 👤 Customer demographics (age, gender, geography)
-* 💳 Account information (balance, tenure, products)
-* 📈 Activity metrics (transactions, engagement)
-* 🚪 Target variable: **Churn (Exited)**
+* Customer demographics (age, gender, geography)
+* Account information (balance, tenure, products)
+* Activity metrics (transactions, engagement)
+* Target variable: **Churn (Exited)**
 
 ---
 
-## ⚙️ Approach
+## Approach
 
 ### 1. Data Preprocessing
 
@@ -42,28 +42,28 @@ The dataset contains customer-level information including:
 
 ### 2. Models Used
 
-#### 🔹 Logistic Regression (Baseline)
+#### Logistic Regression (Baseline)
 
 * Simple and interpretable model
 * Used as a benchmark for comparison
 
-#### 🔹 Multilayer Perceptron (MLP)
+#### Multilayer Perceptron (MLP)
 
 * Feedforward neural network
 * Captures non-linear relationships in data
 
 ---
 
-## 📏 Evaluation Metrics
+## Evaluation Metrics
 
 Since churn prediction is a **classification problem with class imbalance**, the following metrics were used:
 
 * **Accuracy**
 * **Precision**
-* **Recall ⭐ (Primary Metric)**
+* **Recall (Primary Metric)**
 * **F1-Score**
 
-### ❗ Why Recall is Important?
+### Why Recall is Important?
 
 Recall measures how many actual churn customers are correctly identified.
 
@@ -71,14 +71,14 @@ Recall measures how many actual churn customers are correctly identified.
 
 ---
 
-## 📊 Results & Insights
+## Results & Insights
 
 | Model               | Accuracy | Recall      | F1-Score |
 | ------------------- | -------- | ----------- | -------- |
 | Logistic Regression | Moderate | Low (~0.44) | Moderate |
 | MLP Classifier      | Similar  | High (~1.0) | Higher   |
 
-### 🔍 Key Findings:
+### Key Findings:
 
 * MLP significantly improves **recall**, capturing almost all churn cases
 * Logistic Regression fails to detect many churn customers
@@ -86,7 +86,7 @@ Recall measures how many actual churn customers are correctly identified.
 
 ---
 
-## 📈 Visualizations
+## Visualizations
 
 * Model performance comparison (bar charts)
 * Confusion matrix
@@ -94,9 +94,9 @@ Recall measures how many actual churn customers are correctly identified.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
-* Python 🐍
+* Python
 * Libraries:
 
   * NumPy
@@ -106,7 +106,7 @@ Recall measures how many actual churn customers are correctly identified.
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. Clone the repository:
 
@@ -126,7 +126,7 @@ pip install -r requirements.txt
 
 ---
 
-## 📌 Conclusion
+## Conclusion
 
 * Neural networks (MLP) outperform traditional models for this dataset
 * Recall is the most critical metric in churn prediction
@@ -134,7 +134,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
 * Hyperparameter tuning for MLP
 * Use advanced models (XGBoost, Random Forest)
@@ -143,7 +143,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🙋‍♀️ Author
+## Author: Shailly Shailja
 
 **Your Name**
 Analytics Professional | Machine Learning Enthusiast
