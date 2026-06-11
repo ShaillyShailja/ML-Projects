@@ -177,7 +177,6 @@ The final comparison highlights the trade-offs between recurrent architectures a
 ## Author
 
 **Shailly Shailja**
-
-Audit & Assurance Analytics Specialist Senior | Data Science & Machine Learning Enthusiast
+Audit & Assurance Analytics Specialist Senior | Deloitte USI, Hyderabad
 
 GitHub: https://github.com/ShaillyShailja
